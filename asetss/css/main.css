@@ -1,0 +1,672 @@
+.app{
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+    position: relative;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dong1{
+    position: relative;
+}
+.hang1{
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    left: 320px;
+    cursor: pointer;
+}
+.hang1 p{
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    border-right: 1px solid #e5dece;
+}
+.hang1 p:nth-child(4){
+    border-right: none;
+}
+.face{
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f53d2d;
+}
+.istar{
+    font-size: 16px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f53d2d;
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.hang2{
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    right: 500px;
+    cursor: pointer;
+}
+.hang2 p{
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 20px;
+}
+.hang2 i{
+    margin-right: -15px;
+    color: #fff;
+}
+.cham{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hang3{
+    display: flex;
+    position: absolute;
+    padding-top: 10px;
+    right: 325px;
+}
+.hang3 p{
+    padding: 0 10px;
+    border-right: 1px solid #e5dece;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.hang3 p:nth-child(2){
+    border: none;
+}
+.img1{
+    height: 47px;
+    width: 146px;
+    position: absolute;
+    left: 340px;
+    bottom: 27px;
+    cursor: pointer;
+}
+.nhap{
+    width: 770px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    border-radius: 3px;
+    border: none;
+}
+.timkiem{
+    height: 35px;
+    width: 60px;
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 34px;
+    right: 570px;
+    cursor: pointer;
+}
+.img2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 35px;
+    right: 420px;
+    cursor: pointer;
+}
+.img3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 780px;
+    height: 27px;
+    cursor: pointer;
+}
+.navbar{
+    height: 400px;
+    background-color: #fff;
+    position: relative;
+}
+.img_1{
+    position: absolute;
+    right: 330px;
+    top: 30px;
+    height: 240px;
+    width: 400px;
+    cursor: pointer;
+}
+.next{
+    min-height: 2000px;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+}
+.img5{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    height: 400px;
+    width: 1250px;
+}
+.mathang{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+}
+.slide{
+    height: 230px !important;
+    width: 830px !important;
+    position: absolute !important;
+    top: 35px !important;
+    left: 335px !important;
+    cursor:  pointer !important;
+}
+.item{
+    height: 230px !important;
+    width: 830px !important;
+}
+.owl-nav{
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+.owl-prev{
+    height: 60px !important;
+    width: 35px !important;
+    background-color: rgba(0, 0, 0, 0.18) !important;
+    position: absolute !important;
+    left: -5px !important;
+    top: -5px !important;
+    transform: translateY(-50%) !important;
+}
+.owl-prev span{
+    width: 12px !important;
+    height: 30px !important;
+    color: #fff !important;
+    font-size: 40px !important;
+    position: absolute !important;
+    top: 9px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+.owl-next{
+    height: 60px !important;
+    width: 35px !important;
+    background-color: rgba(0, 0, 0, 0.18) !important;
+    position: absolute !important;
+    left: 790px !important;
+    top: -5px !important;
+    transform: translateY(-50%) !important;
+}
+.owl-next span{
+    width: 12px !important;
+    height: 30px !important;
+    color: #fff !important;
+    font-size: 40px !important;
+    position: absolute !important;
+    top: 9px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+.owl-dots{
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+.owl-dot.active span{
+    background-color: #f63 !important;
+}
+.owl-dot span{
+    background-color: #fff !important;
+}
+
+.font1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 360px;
+    cursor: pointer;
+}
+.chu1{
+    font-size: 12px;
+    height: 28px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+}
+.chu_1{
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 6px;
+}
+.img__1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+.font2{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 490px;
+    cursor: pointer;
+}
+.chu2{
+    font-size: 12px;
+    height: 28px;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+}
+.chu_2{
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 6px;
+}
+.img__2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+.font3{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 620px;
+    cursor: pointer;
+}
+.chu3{
+    font-size: 12px;
+    height: 28px;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+}
+.chu_3{
+    font-size: 12px;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 6px;
+}
+.img__3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+.font4{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 750px;
+    cursor: pointer;
+}
+.chu4{
+    font-size: 12px;
+    height: 28px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+.chu_4{
+    font-size: 12px;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 6px;
+    display: flex;
+    justify-content: center;
+}
+.img__4{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+.font5{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 880px;
+    cursor: pointer;
+}
+.chu5{
+    font-size: 12px;
+    height: 28px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+.img__5{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+.font6{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 1010px;
+    cursor: pointer;
+}
+.chu6{
+    font-size: 12px;
+    height: 28px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+.chu_6{
+    font-size: 12px;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 6px;
+    display: flex;
+    justify-content: center;
+}
+.img__6{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+.font7{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 1140px;
+    cursor: pointer;
+}
+.chu7{
+    font-size: 12px;
+    height: 28px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+.chu_7{
+    font-size: 12px;
+    width: 110px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 6px;
+    display: flex;
+    justify-content: center;
+}
+.img__7{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+.font8{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 1270px;
+    cursor: pointer;
+}
+.chu8{
+    font-size: 12px;
+    height: 28px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.img__8{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+.font9{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 1400px;
+    cursor: pointer;
+}
+.chu9{
+    font-size: 12px;
+    height: 28px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+.chu_9{
+    font-size: 12px;
+    width: 110px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 6px;
+    display: flex;
+    justify-content: center;
+}
+.img__9{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+}
+.font{
+    transition: all 0.2s linear;
+}
+.font:hover{
+    transform: translateY(-10px);
+}
+.time{
+    width: 1250px;
+    height: 400px;
+}
+.hour{
+    width: 34px;
+    height: 38px;
+    background-color: #fff;
+    position: absolute;
+    top: 51px;
+    right: 432px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.minute{
+    width: 34px;
+    height: 38px;
+    background-color: #fff;
+    position: absolute;
+    top: 51px;
+    right: 388px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.second{
+    width: 34px;
+    height: 38px;
+    background-color: #fff;
+    position: absolute;
+    top: 51px;
+    right: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    transition: all 0.3s linear;
+    animation: spinner 0.3s linear;
+}
+@keyframes spinner {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.img_next{
+    width: 1250px;
+    height: 385px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 465px;
+    cursor: pointer;
+}
+.prev{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 900px;
+}
+.coloum{
+    transform: translateY(0);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.coloum:hover{
+    transform: translateY(-5px);
+}
+.finaly{
+    width: 1235px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1650px;
+}
+.fina{
+    width: 1235px;
+    height: 120px;
+}
+.chan{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 1900px;
+}
+.img_chan{
+    width: 100%;
+    height: 1000px;
+}
+.issac{
+     position: fixed;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     z-index: 1;
+     background-color: rgba(0, 0, 0,0.3);
+     transition: all 0.5s linear;
+}
+.first{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.close{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    right: 650px;
+}
+.open{
+    display: none;
+}
