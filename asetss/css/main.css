@@ -13,6 +13,85 @@ html{
 .dong1{
     position: relative;
 }
+.last_header{
+    width: 770px;
+    height: 27px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last_header p{
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+.maqr{
+    width: 184px;
+    height: 260px;
+    position: absolute;
+    top: 15px;
+    left: 350px;
+    z-index: 100;
+    transition: all 0.2s linear;
+    display: none;
+}
+.ma{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nhan:hover .maqr{
+    display: block;
+}
+.maqr:hover{
+    display: block;
+}
+.maqr1{
+    width: 198px;
+    height: 90px;
+    position: absolute;
+    top: 20px;
+    left: 97px;
+    z-index: 200;
+    transition: all 0.2s linear;
+    display: none;
+}
+.ma1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nhan1:hover .maqr1{
+    display: block;
+}
+.maqr1:hover{
+    display: block;
+}
+.maqr2{
+    width: 395px;
+    height: 270px;
+    position: absolute;
+    top: 80px;
+    left: 1090px;
+    z-index: 100;
+    transition: all 0.2s linear;
+    display: none;
+}
+.ma2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nhan2:hover .maqr2{
+    display: block;
+}
+.maqr2:hover{
+    display: block;
+}
 .hang1{
     display: flex;
     padding: 10px;
@@ -158,8 +237,8 @@ html{
 .img_1{
     position: absolute;
     right: 330px;
-    top: 30px;
-    height: 240px;
+    top: 28px;
+    height: 241px;
     width: 400px;
     cursor: pointer;
 }
@@ -619,7 +698,7 @@ html{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 1650px;
+    top: 1700px;
 }
 .fina{
     width: 1235px;
@@ -669,4 +748,13 @@ html{
 }
 .open{
     display: none;
+}
+.imgs{
+    width: 200px;
+}
+::placeholder{
+    font-size: 15px;
+}
+.header p:hover{
+  opacity: 0.8;
 }
